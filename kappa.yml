@@ -1,0 +1,18 @@
+---
+name: wordgen
+environments:
+  dev:
+    profile: jedberg
+    region: us-west-2
+    policy:
+      resources:
+        - arn: arn:aws:logs:*:*:*
+          actions:
+          - "*"
+lambda:    
+  description: An "english" word generator
+  handler: wordgen.handler
+  runtime: python2.7
+  memory_size: 128
+  timeout: 3
+  

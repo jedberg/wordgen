@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# kappa cache directories
+.kappa/
+
+# zip files
+*.zip
+
+# Python files
+*.pyc
+*.egg-info
+*.dist-info
+
+# Ignore kappa generated config file
+**/_src/config.json
+
+# Pymodules dists
+pymodules/**/dist
