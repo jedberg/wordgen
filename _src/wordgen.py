@@ -105,9 +105,6 @@ def genword(length=6, prefix="", suffix=""):
     return ''.join(result)
 
 def handler(event, context):
-    return {'status': 'success'}
-
-def handler(event, context):
     ret = {}
     r = ""
     for x in xrange(int(event['words'])):

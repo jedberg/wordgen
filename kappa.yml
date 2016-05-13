@@ -14,5 +14,5 @@ lambda:
   handler: wordgen.handler
   runtime: python2.7
   memory_size: 128
-  timeout: 3
+  timeout: 30
   
